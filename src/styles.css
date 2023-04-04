@@ -1,0 +1,23 @@
+.root{
+    overflow-y: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+    height: 100vh;
+}
+.card{
+    height: 30%;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: auto;
+    width: 70vw;
+    max-width: 750px;
+    border: 2px solid black;
+    margin: 10px;
+    font-family: 'Cinzel Decorative', cursive;
+}
