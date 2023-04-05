@@ -1,4 +1,4 @@
-.root{
+.container{
     overflow-y: auto;
     padding: 30px;
     display: flex;
