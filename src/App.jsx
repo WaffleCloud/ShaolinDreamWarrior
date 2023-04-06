@@ -1,7 +1,10 @@
-function App(){
+import React from 'react';
+import './styles.css'
+
+export default function App(){
     return(
-        <div class="container">
-            <div id="bio" className="card">Bio</div>
+        <div className="container">
+            <div id="bio" className="card">'Bio'</div>
             <div id="gallery" className="card">Gallery</div>
             <div id="resume" className="card">Contact</div>
             <div class="contact"></div>
@@ -9,5 +12,4 @@ function App(){
     );
 }
 
-App.listen(3000);
-export default App;
+
